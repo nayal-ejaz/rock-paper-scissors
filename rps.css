@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #37CACE;
+}
+
+label {
+    display: none;
+}
+
+h1 {
+    color: #008080;
+}
+
+#opponent-board {
+    width: 1000px;
+    height: 350px;
+    background-color: #FFFE6F;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#opponent-contents {
+    margin-left: 120px;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+}
+
+#opponent-choice {
+    width: 240px;
+    height: 240px;
+    background-color: #FFFE6F;
+    /* margin-top: 10px; */
+}
+
+#your-board {
+    width: 1000px;
+    height: 450px;
+    background-color: #EFC2F1;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #your-contents {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+} */
+
+#your-choice {
+    width: 240px;
+    height: 240px;
+    background-color: #EFC2F1;
+    /* margin-top: 10px; */
+}
+
+#choices {
+    width: 240px;
+    height: 80px;
+    /* background-color: green; */
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#choices img{
+    width: 80px;
+    height: 80px;
+}
+
+.stonksOrNot {
+    width: 400px;
+    height: 225px;
+    margin-left: 120px;
+}
+
+/* #stonksOrNotComputer {
+    width: 400px;
+    height: 225px;
+    margin-left: 120px;
+} */
+
+/* #stonksOrNotPlayer {
+    width: 400px;
+    height: 225px;
+    margin-left: 120px;
+} */
